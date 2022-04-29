@@ -1,0 +1,9 @@
+name: Staging deployment
+
+on: 
+  pull_request:
+    tpes: [labeled]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
